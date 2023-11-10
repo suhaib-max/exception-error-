@@ -11,5 +11,6 @@ else:
     content = file.read()                  #nothing happened
     print(content)
 finally:                                   #happened or not Do this for everyone
-    file.close()
-    print("file was closed")
+    # file.close()
+    # print("file was closed")
+    raise TypeError("this is an error that i made up")   #error we can create
